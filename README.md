@@ -38,38 +38,37 @@ O projeto utiliza tecnologias modernas e consolidadas no ecossistema .NET:
 ## 🏗️ Arquitetura da Solução
 
 A aplicação segue uma **organização em camadas**, priorizando manutenibilidade, testabilidade e escalabilidade:
-
-   nvestTrack.Domain
-├─ Entidades de negócio
-├─ Value Objects
-└─ Interfaces (contratos)
+---
+```text
+InvestTrack.Domain
+├── Entidades de negócio
+├── Value Objects
+└── Interfaces (contratos)
 
 InvestTrack.Application
-├─ Casos de uso
-├─ Serviços de domínio
-├─ Cálculos financeiros
-└─ Regras de negócio
+├── Casos de uso
+├── Serviços de domínio
+├── Cálculos financeiros
+└── Regras de negócio
 
 InvestTrack.Infrastructure
-├─ Consumo de APIs externas
-├─ Implementações de repositórios
-├─ Cache e persistência
-└─ Serviços técnicos
+├── Consumo de APIs externas
+├── Implementações de repositórios
+├── Cache e persistência
+└── Serviços técnicos
 
 InvestTrack.Shared
-├─ DTOs
-├─ Enums
-└─ Utilitários comuns
+├── DTOs
+├── Enums
+└── Utilitários comuns
 
 InvestTrack.API
-├─ Endpoints (Controllers / Minimal APIs)
-└─ Configuração da aplicação
+├── Endpoints (Controllers / Minimal APIs)
+└── Configuração da aplicação
 
 InvestTrack.Client
-└─ Interface de usuário em Blazor WebAssembly
-
-
----
+└── Interface de usuário em Blazor WebAssembly
+```
 
 ## 🚀 Funcionalidades
 
