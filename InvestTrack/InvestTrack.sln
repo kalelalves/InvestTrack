@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestTrack.WebApi", "Inves
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestTrack.Shared", "InvestTrack.Shared\InvestTrack.Shared.csproj", "{19B8CACA-ACF3-4B4A-A27E-23533D47C4D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestTrack.Infrastructure", "InvestTrack.Infrastructure\InvestTrack.Infrastructure.csproj", "{933535D2-54B4-4A1F-B32F-8E693849684A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{19B8CACA-ACF3-4B4A-A27E-23533D47C4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19B8CACA-ACF3-4B4A-A27E-23533D47C4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19B8CACA-ACF3-4B4A-A27E-23533D47C4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933535D2-54B4-4A1F-B32F-8E693849684A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933535D2-54B4-4A1F-B32F-8E693849684A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933535D2-54B4-4A1F-B32F-8E693849684A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933535D2-54B4-4A1F-B32F-8E693849684A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
