@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestTrack.Shared", "Inves
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestTrack.Infrastructure", "InvestTrack.Infrastructure\InvestTrack.Infrastructure.csproj", "{933535D2-54B4-4A1F-B32F-8E693849684A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestTrack.Application", "InvestTrack.Application\InvestTrack.Application.csproj", "{FBF66E2B-6E6A-47F0-8EB0-AC25EC4D91ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{933535D2-54B4-4A1F-B32F-8E693849684A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933535D2-54B4-4A1F-B32F-8E693849684A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933535D2-54B4-4A1F-B32F-8E693849684A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF66E2B-6E6A-47F0-8EB0-AC25EC4D91ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF66E2B-6E6A-47F0-8EB0-AC25EC4D91ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF66E2B-6E6A-47F0-8EB0-AC25EC4D91ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF66E2B-6E6A-47F0-8EB0-AC25EC4D91ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
